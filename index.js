@@ -6,7 +6,7 @@ const server = http.createServer((request, response) => {
   // More details here: https://github.com/vercel/serve-handler#options
   return handler(request, response);
 });
-
+// export default server;
 server.listen(3000, () => {
   console.log('Running at http://localhost:3000');
 });
